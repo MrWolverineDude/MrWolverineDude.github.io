@@ -1,7 +1,10 @@
-var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello, World!';
+var myImage = document.querySelector('img');
 
-// An event
-document.querySelector('html').onclick = function () {
-    alert('Ouch! Stop poking me!');
+myImage.onclick = function() {
+  mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/firefox_logo.png') {
+    myImage.setAttribute('src', 'images/firefox2.png');
+  } else {
+    myImage.setAttribute('src', 'images/firefox_logo.png');
+  }
 }
