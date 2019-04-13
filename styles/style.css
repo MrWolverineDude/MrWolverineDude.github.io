@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  background: #CCCCCC
   /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -67,5 +68,4 @@ p {
   right: 0;
   width: 392px;
   height: 220px;
-  float: right;
 }
