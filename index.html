@@ -1,24 +1,36 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>My test page</title>
-</head>
-<body>
-    <h1>Nicolas Williams</h1>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <title>Nicolas Williams</title>
+  </head>
+  <body>
+    <h1 id="nameTitle">Nicolas Williams</h1>
+    <h2 id="jobTitle">Game Designer, Producer</h2>
 
-    <img src="images/firefox_logo.png" alt="My test image" id="letter_head">
+    <p class="sectionHeader">Games</p>
 
-    <p>Games</p>
+    <div class="projectBox">
+      <p class="projectName">Miner Mayhem</p>
+      <p class="projectRole">Designer, Producer</p>
+      <p id="projectInfo">
+      </p>
+    </div>
 
-    <ul>
-        <li><a href="https://www.indiedb.com/games/miner-mayhem">Miner Mayhem</a></li>
-        <li>Dante's Descent</li>
-        <li>Circle Survival</li>
-    </ul>
+
+    <div class="projectBox">
+      <p class="projectName">Dante's Descent</p>
+      <p class="projectRole">Designer, Producer</p>
+    </div>
+
+
+    <div class="projectBox">
+      <p class="projectName">Circle Survival</p>
+      <p class="projectRole">Designer, Producer</p>
+    </div>
 
     <script src="scripts/main.js"></script>
-</body>
+  </body>
 </html>
