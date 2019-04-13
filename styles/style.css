@@ -7,8 +7,12 @@ img {
   margin: 0 auto;
 }
 
+img.projectImage {
+  margin: 0 auto;
+}
+
 p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #nameTitle {
@@ -32,8 +36,9 @@ p {
 .projectBox {
   display: block;
   padding: 20px 20px 20px 0px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin: 0;
+  position: relative;
 }
 
 .projectName {
@@ -51,5 +56,16 @@ p {
 }
 
 .projectInfo {
-  font-size:
+  font-size: 14px;
+  width: 30%;
+}
+
+.projectImg, .projectVid {
+  position: absolute;
+  top: Calc(50% - 110px);
+  height: 100px;
+  right: 0;
+  width: 392px;
+  height: 220px;
+  float: right;
 }
