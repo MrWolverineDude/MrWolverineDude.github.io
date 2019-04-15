@@ -16,7 +16,7 @@ p {
 }
 
 #jobTitle {
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -63,6 +63,7 @@ p {
 }
 
 .navBar {
+  background: #686868;
   list-style-type: none;
   padding: 5px;
   margin: 5px;
@@ -71,6 +72,17 @@ p {
   font-size: 20px;
 }
 
-li {
+.navLink {
+  color: #ffffff;
   display: inline;
+  padding: 0 5px 0 5px;
+  text-decoration: none;
 }
+
+.navLink:visited {
+  color: #ffffff;
+}
+.navLink:active {
+  color: #ffffff;
+}
+
