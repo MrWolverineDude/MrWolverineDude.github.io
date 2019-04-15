@@ -46,17 +46,28 @@ p {
 }
 
 .projectInfo {
-  font-size: 14px;
+  font-size: 20px;
   width: 30%;
 }
 
+.infoList {
+  padding: 5px;
+}
+
+/* .projectImg, .projectVid { */
+/*   position: absolute; */
+/*   top: Calc(50% - 110px); */
+/*   height: 100px; */
+/*   right: 0; */
+/*   width: 560px; */
+/*   height: 315px; */
+/* } */
+
 .projectImg, .projectVid {
-  position: absolute;
-  top: Calc(50% - 110px);
-  height: 100px;
-  right: 0;
+  float: right;
   width: 560px;
   height: 315px;
+  vertical-align: baseline;
 }
 
 .navBar {
