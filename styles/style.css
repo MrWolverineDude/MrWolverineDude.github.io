@@ -25,7 +25,7 @@ p {
 .projectBox {
   display: block;
   padding: 20px 20px 20px 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0;
   position: relative;
   min-height: 400px;
@@ -72,18 +72,25 @@ p {
 }
 
 .navBar {
-  background: #686868;
+  /* background: #686868; */
   list-style-type: none;
   padding: 5px;
   margin: 5px;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   text-align: center;
   font-size: 20px;
+  /* border-top-style: solid; */
+  border-bottom-style: solid:
 }
 
-.navLink, .navLink:visited, .navLink:active {
-  color: #ffffff;
+.navLink {
+  color: #909090;
   display: inline;
   padding: 0 5px 0 5px;
   text-decoration: none;
+}
+
+.active {
+  color: #000000;
+  font-weight: bold;
 }
