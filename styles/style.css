@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: #CCCCCC
+  /* background: #CCCCCC */
   /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -60,4 +60,17 @@ p {
   right: 0;
   width: 50%;
   height: 220px;
+}
+
+.navBar {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
 }
