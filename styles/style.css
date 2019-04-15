@@ -25,7 +25,7 @@ p {
 .projectBox {
   display: block;
   padding: 20px 20px 20px 0px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin: 0;
   position: relative;
   min-height: 400px;
@@ -67,6 +67,7 @@ p {
   float: right;
   width: 560px;
   height: 315px;
+  margin-top: 42px;
   vertical-align: baseline;
 }
 
