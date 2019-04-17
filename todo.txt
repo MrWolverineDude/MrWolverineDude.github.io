@@ -1,10 +1,8 @@
-- Links to Github, Twitter, LinkedIn
 - Post-mortems
 - Demos
 - About Me
 - Role Descriptions
-- Resume download
-- Size and link the logo hyperlinks on contact me page
-  - Perhaps use a table
 - Link to 494 page
 - Quotes from students in about me section
+- Update resume
+- Create resume download link
