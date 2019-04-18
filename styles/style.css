@@ -125,6 +125,11 @@ a:hover {
   width: 32px;
   padding: 10px;
   margin: auto;
+  transition: .2s ease;
+}
+
+.socialMediaButton:hover {
+  opacity: .7;
 }
 
 .norm {
@@ -199,4 +204,5 @@ img.gameImg {
   height: 80px;
   width: auto;
   margin: 0 10px;
+  float: right;
 }
